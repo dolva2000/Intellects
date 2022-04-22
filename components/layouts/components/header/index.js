@@ -120,117 +120,71 @@ const Index = () => {
 
         <ul className="mobile-menu">
           <li>
-            <a className="active" href="index.html">
-              Home
-            </a>
+            <Link href="/">
+              <a className="active">PAGE D’ACCUEIL</a>
+            </Link>
           </li>
           <li>
-            <a href="category.html">Categories</a>
+            <Link href="/categories">
+              <a>NOS PRODUITS</a>
+            </Link>
           </li>
           <li>
-            <a href="#">Listings</a>
+            <a>INSTORE</a>
             <ul className="dropdown">
               <li>
-                <a href="adlistinggrid.html">Ad Grid</a>
+                <Link href="/payement">
+                  <a>Information sur le paiement</a>
+                </Link>
               </li>
               <li>
-                <a href="adlistinglist.html">Ad Listing</a>
-              </li>
-              <li>
-                <a href="ads-details.html">Listing Detail</a>
+                <Link href="/payement">
+                  <a>
+                    Type d’achat et telechargement, de logiciels, plugin,
+                    assistance Edith
+                  </a>
+                </Link>
               </li>
             </ul>
           </li>
           <li>
-            <a href="#">Pages</a>
+            <a href="#">Game</a>
             <ul className="dropdown">
               <li>
-                <a href="about.html">About Us</a>
+                <a href="about.html">jeux pour enfant</a>
               </li>
               <li>
-                <a href="services.html">Services</a>
-              </li>
-              <li>
-                <a href="ads-details.html">Ads Details</a>
-              </li>
-              <li>
-                <a href="post-ads.html">Ads Post</a>
-              </li>
-              <li>
-                <a href="pricing.html">Packages</a>
-              </li>
-              <li>
-                <a href="testimonial.html">Testimonial</a>
-              </li>
-              <li>
-                <a href="faq.html">FAQ</a>
-              </li>
-              <li>
-                <a href="404.html">404</a>
+                <a href="services.html">jeux pour adulye</a>
               </li>
             </ul>
           </li>
+          <li></li>
           <li>
-            <a href="#">Blog</a>
-            <ul className="dropdown">
-              <li>
-                <a href="blog.html">Blog - Right Sidebar</a>
-              </li>
-              <li>
-                <a href="blog-left-sidebar.html">Blog - Left Sidebar</a>
-              </li>
-              <li>
-                <a href="blog-grid-full-width.html"> Blog full width </a>
-              </li>
-              <li>
-                <a href="single-post.html">Blog Details</a>
-              </li>
-            </ul>
+            <Link href="/contact">
+              <a>Contact</a>
+            </Link>
           </li>
           <li>
-            <a href="contact.html">Contact Us</a>
-          </li>
-          <li>
-            <a>My Account</a>
+            <a>Mon Compte</a>
             <ul className="dropdown">
               <li>
                 <a>
-                  <i className="lni-home"></i> Account Home
+                  <i className="lni-home"></i>Créer un Compte
                 </a>
               </li>
               <li>
                 <a>
-                  <i className="lni-wallet"></i> My Ads
+                  <i className="lni-wallet"></i> Se Connecter
                 </a>
               </li>
               <li>
                 <a>
-                  <i className="lni-heart"></i> Favourite ads
+                  <i className="lni-heart"></i>Mot de passe oublie
                 </a>
               </li>
               <li>
                 <a>
-                  <i className="lni-folder"></i> Archived
-                </a>
-              </li>
-              <li>
-                <a>
-                  <i className="lni-lock"></i> Log In
-                </a>
-              </li>
-              <li>
-                <a>
-                  <i className="lni-user"></i> Signup
-                </a>
-              </li>
-              <li>
-                <a>
-                  <i className="lni-reload"></i> Forgot Password
-                </a>
-              </li>
-              <li>
-                <a>
-                  <i className="lni-close"></i>Account close
+                  <i className="lni-folder"></i> Se Deconnecter
                 </a>
               </li>
             </ul>
